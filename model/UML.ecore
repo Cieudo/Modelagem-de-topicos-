@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="um2tsl" nsURI="http://www.example.org/um2tsl" nsPrefix="um2tsl">
+  <eClassifiers xsi:type="ecore:EClass" name="name"/>
+  <eClassifiers xsi:type="ecore:EClass" name="attribute">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="#//name"/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://uml" xmi:version="2.0">
+  <uml:Classe xmi:id="Aluno" nome="Aluno">
+    <uml:atributos xmi:id="a1" nome="id" tipo="int" isPrimaryKey="true" isForeignKey="false"/>
+    <uml:atributos xmi:id="a2" nome="nome" tipo="string" isPrimaryKey="false" isForeignKey="false"/>
+    <uml:atributos xmi:id="a3" nome="idCurso" tipo="int" isPrimaryKey="false" isForeignKey="true"/>
+  </uml:Classe>
+  <uml:Classe xmi:id="Curso" nome="Curso">
+    <uml:atributos xmi:id="a4" nome="id" tipo="int" isPrimaryKey="true" isForeignKey="false"/>
+    <uml:atributos xmi:id="a5" nome="nome" tipo="string" isPrimaryKey="false" isForeignKey="false"/>
+  </uml:Classe>
+</xmi:XMI>
